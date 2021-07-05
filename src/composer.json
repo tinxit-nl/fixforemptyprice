@@ -1,0 +1,20 @@
+{
+  "name": "tinxit/emptyprice",
+  "description": "Fix for empty the special price field with empty field in API ",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Tinx-IT\\Emptyprice\\": ""
+    }
+  }
+}

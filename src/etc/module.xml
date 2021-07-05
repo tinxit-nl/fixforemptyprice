@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+  ~ Tinx-IT
+  ~
+  ~ DISCLAIMER
+  ~
+  ~  Do not edit or add to this file if you wish to upgrade this extension to newer version in the future.
+  ~
+  ~  @category    TinxIT
+  ~  @package     TinxIT_Emptyprice
+  ~  @copyright   Copyright (c) Tinx-IT (http://www.tinx-it.com/)
+  ~  @Author        Rene Donkers
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="TinxIT_Emptyprice" setup_version="1.0.0"> <sequence>
+        <module name="Magento_Catalog"/> </sequence>
+    </module>
+</config>
